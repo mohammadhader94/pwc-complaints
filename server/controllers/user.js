@@ -7,7 +7,6 @@ const secret = 'test';
 
 export const googleSignIn = async (req, res) => {
   const { email, name } = req.body;
-  console.log("email, name", email, name);
   try {
     const oldUser = await UserModal.findOne({ email });
 

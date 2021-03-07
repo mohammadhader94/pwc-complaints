@@ -9,15 +9,18 @@ import Icon from './icon';
 import { signin, signup, googleSignIn } from '../../actions/auth';
 import useStyles from './styles';
 import Input from './Input';
+import { Redirect } from 'react-router-dom'
 
 const initialState = { firstName: '', lastName: '', email: '', password: '', confirmPassword: '' };
 
 const SignUp = () => {
+
   const [form, setForm] = useState(initialState);
   const [isSignup, setIsSignup] = useState(false);
   const dispatch = useDispatch();
   const history = useHistory();
   const classes = useStyles();
+
 
   const [showPassword, setShowPassword] = useState(false);
   const handleShowPassword = () => setShowPassword(!showPassword);
@@ -49,6 +52,11 @@ const SignUp = () => {
 
   const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
 
+  const user = JSON.parse(localStorage.getItem('profile'));
+  const isAuthenticated = user?.token;
+  if(isAuthenticated) {
+    return <Redirect to={{ pathname: '/' }}/>
+  }
   return (
     <Container component="main" maxWidth="xs">
       <Paper className={classes.paper} elevation={3}>

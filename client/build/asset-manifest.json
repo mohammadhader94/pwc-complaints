@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ec97fc99.chunk.css",
+    "main.js": "/static/js/main.731e31e5.chunk.js",
+    "main.js.map": "/static/js/main.731e31e5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c0193c73.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c0193c73.js.map",
+    "static/js/2.6423f46d.chunk.js": "/static/js/2.6423f46d.chunk.js",
+    "static/js/2.6423f46d.chunk.js.map": "/static/js/2.6423f46d.chunk.js.map",
+    "static/js/3.1a6a896d.chunk.js": "/static/js/3.1a6a896d.chunk.js",
+    "static/js/3.1a6a896d.chunk.js.map": "/static/js/3.1a6a896d.chunk.js.map",
+    "static/js/4.4c4016d2.chunk.js": "/static/js/4.4c4016d2.chunk.js",
+    "static/js/4.4c4016d2.chunk.js.map": "/static/js/4.4c4016d2.chunk.js.map",
+    "static/js/5.b7d92557.chunk.js": "/static/js/5.b7d92557.chunk.js",
+    "static/js/5.b7d92557.chunk.js.map": "/static/js/5.b7d92557.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0541cea47f96865d0bb2e3c4126e46ed.js": "/precache-manifest.0541cea47f96865d0bb2e3c4126e46ed.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ec97fc99.chunk.css.map": "/static/css/main.ec97fc99.chunk.css.map",
+    "static/js/2.6423f46d.chunk.js.LICENSE.txt": "/static/js/2.6423f46d.chunk.js.LICENSE.txt",
+    "static/js/3.1a6a896d.chunk.js.LICENSE.txt": "/static/js/3.1a6a896d.chunk.js.LICENSE.txt",
+    "static/js/4.4c4016d2.chunk.js.LICENSE.txt": "/static/js/4.4c4016d2.chunk.js.LICENSE.txt",
+    "static/js/5.b7d92557.chunk.js.LICENSE.txt": "/static/js/5.b7d92557.chunk.js.LICENSE.txt",
+    "static/media/pwc-logo.png": "/static/media/pwc-logo.e40bebc8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0193c73.js",
+    "static/js/2.6423f46d.chunk.js",
+    "static/css/main.ec97fc99.chunk.css",
+    "static/js/main.731e31e5.chunk.js"
+  ]
+}
