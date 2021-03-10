@@ -25,7 +25,3 @@ $ cd server/
 $ npm install
 $ npm start
 ```
-
-### To login as super admin, use these creds:
-email: 	   haderm94@hotmail.com
-password:  123456
